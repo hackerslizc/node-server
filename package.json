@@ -1,0 +1,32 @@
+{
+  "name": "wechatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerslizc/wechatApp.git"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": "lizc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackerslizc/wechatApp/issues"
+  },
+  "homepage": "https://github.com/hackerslizc/wechatApp#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.5",
+    "multer": "^1.3.0"
+  }
+}
